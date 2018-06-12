@@ -132,13 +132,13 @@ $(function(){
 
     //第五页开始
     $('#xinrenll').click(function(){
-        open("../html/index6.html")
+        open("../html/index7.html")
     });
     //第五页结束
 
     //第六页开始
     $('#xinrenll2').click(function(){
-        open("../html/index7.html")
+        open("../html/index1.html")
     });
     //第六页结束
 
@@ -158,17 +158,19 @@ $(function(){
 
     //第九页开始
     $('#xinrenll5').click(function(){
-        open("../html/index1.html")
+        open("../html/index6.html")
     });
     //第九页结束
 
 
 
-    //第十二页
-
-
-
-
+    //第十五页跳转
+    $('#xinrenll15').click(function(){
+        $('.foor-box2-img2').addClass("zzz").removeClass('d-none');
+        setTimeout(function(){
+            window.location.href="../html/index20.html";
+        },3000);
+    })
 
 
 });

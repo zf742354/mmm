@@ -40,10 +40,21 @@ p{
     width: 4.11rem;
     margin: .74rem 0 .39rem 0;
 }
-.bj-box3>p{
+.bj-box3{
     font-size: .3rem;
     color: #d1b985;
 }
+.bj-box3-p7,.bj-box3-p8{
+    font-size: .6rem;
+    color: #d1b985;
+    font-weight: 800;
+}
+.bj-box3-p9{
+    font-size: .4rem;
+    font-weight: 800;
+    color: #d1b985;
+}
+
 .hbd{
     height: .85rem;
     width: 100vw;
